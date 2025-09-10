@@ -39,7 +39,7 @@
 
         <!-- Email -->
         <a
-          href="mailto:sharoon@example.com"
+          href="mailto:Sharoonlatif32@gmail.com"
           class="hover:opacity-80 transition"
           style="color: #d14836"
         >
