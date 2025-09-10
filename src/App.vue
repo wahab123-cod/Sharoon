@@ -10,7 +10,8 @@
       href="https://wa.me/447946824511"
       target="_blank"
       rel="noopener noreferrer"
-      class="fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition transform hover:scale-110"
+      class="fixed right-6 bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition transform hover:scale-110"
+      style="bottom: 80px"
     >
       <i class="fab fa-whatsapp text-3xl"></i>
     </a>

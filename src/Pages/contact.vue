@@ -10,7 +10,7 @@
         <h1 class="text-4xl md:text-5xl font-bold tracking-wide">
           Let’s <span class="text-cyan-400">Connect</span>
         </h1>
-        <p class="text-gray-400 mt-4 max-w-2xl mx-auto leading-relaxed">
+        <p class="text-white mt-4 max-w-2xl mx-auto leading-relaxed">
           Have a project in mind, want to collaborate, or just say hello? I’m always
           excited to connect with like-minded people and explore new ideas. Here’s how you
           can reach me:
@@ -30,8 +30,8 @@
             class="text-green-400 text-5xl mb-4"
           />
           <h3 class="text-xl font-semibold mb-2">WhatsApp</h3>
-          <p class="text-gray-300">07946824511</p>
-          <p class="text-gray-500 text-sm mt-2">Quick responses guaranteed</p>
+          <p class="text-white">07946824511</p>
+          <p class="text-white text-sm mt-2">Quick responses guaranteed</p>
         </div>
 
         <!-- Email -->
@@ -43,8 +43,8 @@
             class="text-cyan-400 text-5xl mb-4"
           />
           <h3 class="text-xl font-semibold mb-2">Email</h3>
-          <p class="text-gray-300">Sharoonlatif32@gmail.com</p>
-          <p class="text-gray-500 text-sm mt-2">Replies within 24 hours</p>
+          <p class="text-white">Sharoonlatif32@gmail.com</p>
+          <p class="text-white text-sm mt-2">Replies within 24 hours</p>
         </div>
 
         <!-- Address -->
@@ -56,8 +56,8 @@
             class="text-cyan-400 text-5xl mb-4"
           />
           <h3 class="text-xl font-semibold mb-2">Location</h3>
-          <p class="text-gray-300">United Kingdom</p>
-          <p class="text-gray-500 text-sm mt-2">Available for collaborations worldwide</p>
+          <p class="text-white">United Kingdom</p>
+          <p class="text-white text-sm mt-2">Available for collaborations worldwide</p>
         </div>
       </div>
     </section>

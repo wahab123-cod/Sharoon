@@ -21,7 +21,7 @@
             <p class="mt-2 text-lg text-gray-600 dark:text-gray-300">
               MERN Stack Full-Stack Developer
             </p>
-            <p class="mt-4 text-gray-700 dark:text-gray-400 leading-relaxed">
+            <p class="mt-4 text-white dark:text-white leading-relaxed">
               I’m a full-stack developer passionate about crafting modern, scalable, and
               elegant web applications. Experienced in React, Vue/Nuxt, Node.js, Express,
               MongoDB, and API integrations. I enjoy building responsive, user-friendly
@@ -55,20 +55,20 @@
 
         <!-- EXPERIENCE -->
         <section>
-          <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-6">
+          <h2 class="text-2xl font-bold text-white dark:text-white mb-6">
             Experience & Education
           </h2>
-          <ol class="relative border-l border-gray-300 dark:border-gray-700">
+          <ol class="relative border-l border-gray-300 light:border-gray-700">
             <li v-for="exp in experiences" :key="exp.title" class="mb-10 ml-6">
               <div
                 class="absolute w-3 h-3 bg-indigo-600 rounded-full -left-1.5 border border-white dark:border-gray-900"
               ></div>
-              <time class="mb-1 text-sm font-normal text-gray-400">{{ exp.period }}</time>
-              <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+              <time class="mb-1 text-sm font-normal text-white">{{ exp.period }}</time>
+              <h3 class="text-lg font-semibold text-white dark:text-white">
                 {{ exp.title }}
               </h3>
               <p class="text-gray-600 dark:text-gray-300">{{ exp.company }}</p>
-              <p class="mt-2 text-sm text-gray-500 dark:text-gray-400">
+              <p class="mt-2 text-sm text-white dark:text-white">
                 {{ exp.description }}
               </p>
             </li>

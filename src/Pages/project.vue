@@ -7,7 +7,7 @@
       <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-12">
         <!-- TITLE -->
         <section class="text-center">
-          <h1 class="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mt-5">
+          <h1 class="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mt-6">
             My Projects
           </h1>
           <p class="mt-3 text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
@@ -34,13 +34,13 @@
               />
               <!-- CONTENT -->
               <div class="p-5">
-                <h3 class="font-semibold text-lg text-gray-900 dark:text-white">
+                <h3 class="font-semibold text-lg text-white dark:text-white">
                   {{ project.name }}
                 </h3>
-                <p class="text-sm text-gray-600 dark:text-gray-400 mt-2 leading-relaxed">
+                <p class="text-sm text-white dark:text-white mt-2 leading-relaxed">
                   {{ project.description }}
                 </p>
-                <p class="mt-3 text-xs text-gray-500 dark:text-gray-400">
+                <p class="mt-3 text-xs text-white dark:text-white">
                   <strong>Tech:</strong> {{ project.tech }}
                 </p>
               </div>
