@@ -2,7 +2,7 @@
   <div>
     <Header />
     <div
-      class="min-h-screen bg-gradient-to-b from-white to-gray-50 dark:from-gray-900 dark:to-gray-950"
+      class="min-h-screen bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 text-white"
     >
       <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-12">
         <!-- HERO -->

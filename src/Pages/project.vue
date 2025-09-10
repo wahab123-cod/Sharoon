@@ -2,7 +2,7 @@
   <div>
     <Header />
     <div
-      class="min-h-screen bg-gradient-to-b from-white to-gray-50 dark:from-gray-900 dark:to-gray-950"
+      class="min-h-screen bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 text-white"
     >
       <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-12">
         <!-- TITLE -->
@@ -19,10 +19,12 @@
         <!-- PROJECT GRID -->
         <section>
           <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div
+            <a
               v-for="project in projects"
               :key="project.name"
-              class="bg-white dark:bg-gray-800 rounded-xl shadow border border-gray-100 dark:border-gray-700 overflow-hidden hover:shadow-lg transition"
+              :href="project.link"
+              target="_blank"
+              class="bg-white dark:bg-gray-800 rounded-xl shadow border border-gray-100 dark:border-gray-700 overflow-hidden hover:shadow-lg hover:scale-105 transition transform block"
             >
               <!-- IMAGE -->
               <img
@@ -42,7 +44,7 @@
                   <strong>Tech:</strong> {{ project.tech }}
                 </p>
               </div>
-            </div>
+            </a>
           </div>
         </section>
       </main>
@@ -58,8 +60,10 @@ import indoor from "../assets/indoor.jpg";
 import res from "../assets/res.jpg";
 import eco from "../assets/eco.jpg";
 import inventory from "../assets/inventory.jpg";
+import ladies from "../assets/cloth.jpg";
 import Header from "../components/header.vue";
 import Footer from "../components/footer.vue";
+
 const projects = [
   {
     name: "Rideon Minicabs",
@@ -67,6 +71,7 @@ const projects = [
       "A fast and reliable car booking platform designed for minicab services, with real-time bookings, fare estimation, and driver management.",
     tech: "Vue 3, Vite, Node.js, MongoDB",
     image: ride,
+    link: "https://rideonminicabs.com", // 🔗 replace with your live link
   },
   {
     name: "Hopon Cars",
@@ -74,6 +79,7 @@ const projects = [
       "Car booking system providing seamless ride reservations, user-friendly UI, and secure payment integration.",
     tech: "Vue 3, Vite, Express.js, MongoDB",
     image: hop,
+    link: "https://hoponcars.com", // 🔗 replace with your live link
   },
   {
     name: "Indoor Sport Booking System",
@@ -81,6 +87,7 @@ const projects = [
       "Online booking for sports facilities with e-commerce integration, real-time availability, memberships, and payments.",
     tech: "Nuxt.js, Node.js, MongoDB",
     image: indoor,
+    link: "#", // 🔗 replace with real link
   },
   {
     name: "Restaurant Management System",
@@ -88,6 +95,7 @@ const projects = [
       "Complete POS, kitchen display, and inventory tracking with multi-branch support and analytics dashboard.",
     tech: "React, Express, MySQL",
     image: res,
+    link: "#",
   },
   {
     name: "Shopify Inventory & Reports",
@@ -95,6 +103,15 @@ const projects = [
       "Custom Shopify app for inventory tracking, analytics, and automated reporting across channels.",
     tech: "Nuxt.js, Shopify API",
     image: inventory,
+    link: "#",
+  },
+  {
+    name: "Rang Mehal Clothing Store",
+    description:
+      "only frontend e-commerce site with product filtering, cart, checkout, and responsive UI.",
+    tech: "Nuxt.js, Shopify API",
+    image: ladies,
+    link: "https://rang-mehal-frontend.vercel.app/",
   },
   {
     name: "E-Commerce Store",
@@ -102,6 +119,7 @@ const projects = [
       "Modern online store with product filtering, cart, checkout, and responsive UI.",
     tech: "Nuxt.js, Stripe API",
     image: eco,
+    link: "#",
   },
 ];
 </script>
