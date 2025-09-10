@@ -24,7 +24,7 @@
               :key="project.name"
               :href="project.link"
               target="_blank"
-              class="bg-dark dark:bg-gray-800 rounded-xl shadow border border-gray-900 dark:border-gray-700 overflow-hidden hover:shadow-lg hover:scale-105 transition transform block"
+              class="bg-dark dark:bg-gray-800 rounded-xl shadow border border-gray-900 dark:border-white overflow-hidden hover:shadow-lg hover:scale-105 transition transform block"
             >
               <!-- IMAGE -->
               <img
