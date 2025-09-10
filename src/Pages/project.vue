@@ -7,10 +7,10 @@
       <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-12">
         <!-- TITLE -->
         <section class="text-center">
-          <h1 class="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mt-6">
+          <h1 class="text-3xl md:text-4xl font-bold text-white dark:text-white mt-6">
             My Projects
           </h1>
-          <p class="mt-3 text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
+          <p class="mt-3 text-white dark:text-gray-300 max-w-2xl mx-auto">
             A selection of my work by <span class="font-semibold">Sharoon Latif</span> —
             practical business solutions, custom applications, and UI projects.
           </p>
@@ -34,13 +34,13 @@
               />
               <!-- CONTENT -->
               <div class="p-5">
-                <h3 class="font-semibold text-lg text-white dark:text-white">
+                <h3 class="font-semibold text-lg text-gray-9 dark:text-white">
                   {{ project.name }}
                 </h3>
                 <p class="text-sm text-white dark:text-white mt-2 leading-relaxed">
                   {{ project.description }}
                 </p>
-                <p class="mt-3 text-xs text-white dark:text-white">
+                <p class="mt-3 text-xs text-white dark:text-gray-400">
                   <strong>Tech:</strong> {{ project.tech }}
                 </p>
               </div>

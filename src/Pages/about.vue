@@ -18,7 +18,7 @@
             <h1 class="text-3xl font-bold text-gray-900 dark:text-white">
               Sharoon Latif
             </h1>
-            <p class="mt-2 text-lg text-gray-600 dark:text-gray-300">
+            <p class="mt-2 text-lg text-white dark:text-white">
               MERN Stack Full-Stack Developer
             </p>
             <p class="mt-4 text-white dark:text-white leading-relaxed">
@@ -67,7 +67,7 @@
               <h3 class="text-lg font-semibold text-white dark:text-white">
                 {{ exp.title }}
               </h3>
-              <p class="text-gray-600 dark:text-gray-300">{{ exp.company }}</p>
+              <p class="text-white dark:text-white">{{ exp.company }}</p>
               <p class="mt-2 text-sm text-white dark:text-white">
                 {{ exp.description }}
               </p>
