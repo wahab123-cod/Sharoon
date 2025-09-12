@@ -41,7 +41,7 @@
 
         <!-- SKILLS -->
         <section>
-          <h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-6">Skills</h2>
+          <h2 class="text-2xl font-bold text-white dark:text-white mb-6">Skills</h2>
           <div class="flex flex-wrap gap-3">
             <span
               v-for="skill in skills"
