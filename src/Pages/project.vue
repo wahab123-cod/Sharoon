@@ -65,7 +65,7 @@ import Header from "../components/header.vue";
 import Footer from "../components/footer.vue";
 
 const projects = [
-  {
+  /*  {
     name: "Rideon Minicabs",
     description:
       "A fast and reliable car booking platform designed for minicab services, with real-time bookings, fare estimation, and driver management.",
@@ -80,7 +80,7 @@ const projects = [
     tech: "Vue 3, Vite, Express.js, MongoDB",
     image: hop,
     link: "https://hoponcars.com", // 🔗 replace with your live link
-  },
+  }, */
   {
     name: "Indoor Sport Booking System",
     description:
